@@ -66,6 +66,51 @@ body.varios {
   font-size: 20px;
 }
 
+.cuervo-volador {
+  position: absolute;
+  top: 20%;
+  left: -200px;
+  width: 120px;
+  animation: vuelo-zigzag 10s linear infinite;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+@keyframes vuelo-zigzag {
+  0% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(10vw, -30px);
+  }
+  20% {
+    transform: translate(20vw, 20px);
+  }
+  30% {
+    transform: translate(30vw, -40px);
+  }
+  40% {
+    transform: translate(40vw, 30px);
+  }
+  50% {
+    transform: translate(50vw, -50px);
+  }
+  60% {
+    transform: translate(60vw, 20px);
+  }
+  70% {
+    transform: translate(70vw, -30px);
+  }
+  80% {
+    transform: translate(80vw, 10px);
+  }
+  90% {
+    transform: translate(90vw, -20px);
+  }
+  100% {
+    transform: translate(100vw, 0);
+  }
+}
 
 
 
