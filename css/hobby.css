@@ -25,8 +25,6 @@ nav ul li a:hover {
   color: rgb(68, 210, 212);
 }
 
-
-
 /* Estilos generales del body para la página de Hobbys */
 body.hobby {
   background-image: url("/imagenes/fondo_hobby.png");
@@ -82,7 +80,7 @@ h2.titulo-principal {
   max-width: 800px;
   margin: 40px auto;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.7); /* cuadro translúcido */
+  background-color: rgba(255, 255, 255, 0.2); /* cuadro translúcido */
   border: 2px solid black;
   border-radius: 10px;
 }
@@ -113,7 +111,7 @@ h2.titulo-principal {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.2);
   color: white;
   padding: 10px;
   text-align: center;
@@ -124,3 +122,16 @@ h2.titulo-principal {
 .hover-box:hover .hover-text {
   opacity: 1;
 }
+
+.gif-centro {
+  position: fixed;   /* mantiene el gif en la misma posición al hacer scroll */
+  top: 50%;      /* posición vertical al 50% */
+  left: 50%;           /* posición horizontal al 50% */
+  transform: translate(-50%, -50%); /* centra exactamente el gif */
+  width: 150px;    /* puedes ajustar el tamaño aquí */
+  height: auto;
+ 
+  opacity: 1;      /* opcional: hace el gif un poco translúcido */
+
+  }
+

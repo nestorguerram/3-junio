@@ -75,42 +75,38 @@ body.varios {
   z-index: 1000;
   pointer-events: none;
 }
-
-@keyframes vuelo-zigzag {
+/* animación para que el cuervo vuele horizontalmente de izquierda a derecha */
+@keyframes vuelo-cuervo {
   0% {
-    transform: translate(0, 0);
-  }
-  10% {
-    transform: translate(10vw, -30px);
-  }
-  20% {
-    transform: translate(20vw, 20px);
-  }
-  30% {
-    transform: translate(30vw, -40px);
-  }
-  40% {
-    transform: translate(40vw, 30px);
+    left: -100px;
+    top: 100px;
+    transform: scaleX(1);
   }
   50% {
-    transform: translate(50vw, -50px);
+    left: 100vw;
+    top: 150px;
+    transform: scaleX(1);
   }
-  60% {
-    transform: translate(60vw, 20px);
-  }
-  70% {
-    transform: translate(70vw, -30px);
-  }
-  80% {
-    transform: translate(80vw, 10px);
-  }
-  90% {
-    transform: translate(90vw, -20px);
+  50.01% {
+    transform: scaleX(-1); /* voltear horizontalmente */
   }
   100% {
-    transform: translate(100vw, 0);
+    left: -100px;
+    top: 200px;
+    transform: scaleX(-1);
   }
 }
+
+/* estilos del cuervo animado */
+.cuervo-volador {
+  position: fixed;
+  width: 100px;
+  height: auto;
+  z-index: 9999;
+  animation: vuelo-cuervo 10s linear infinite;
+  pointer-events: none; /* para que no interfiera con clics */
+}
+
 
 
 
