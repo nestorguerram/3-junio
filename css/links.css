@@ -31,7 +31,7 @@ body.links {
   background-image: url("/imagenes/links_fondo.jpg");
   background-size: cover;
   background-position: center;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: 'DreamingOutloud';
   font-size: 20px;
   color: black;
   margin: 0;
@@ -45,7 +45,7 @@ body.links {
   margin-left: 30px;      /* mueve el título hacia la derecha */
   font-size: 36px;
   font-weight: bold;
-  font-family: 'DreamingOutloud', cursive;
+  font-family: 'Roboto';
 }
 
 
@@ -71,7 +71,7 @@ body.links {
 
 /* Lista de enlaces */
 .base-descripcion a {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
   font-size: 20px;
   text-decoration: none;
   color: rgb(166, 131, 43); /* color normal */
