@@ -80,8 +80,10 @@ input[type="submit"] {
   font-size: 20px;
   background-color: #007BFF;
   color: white;
-  border: none;
+  border: black solid;
   cursor: pointer;
+  border-radius: 30px;
+  margin-left: 100px;
 }
 
 input[type="submit"]:hover {
