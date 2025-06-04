@@ -52,9 +52,9 @@ body.links {
 /* Contenedor de lo principal */
 .base-descripcion {
   width: 820px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 20px; /* Mueve a la derecha */
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 30px; /* Mueve a la derecha */
   padding: 20px;
   color: aliceblue;
   font-family: 'Roboto', sans-serif;
@@ -63,12 +63,10 @@ body.links {
 }
 
 
-
-
 /* Párrafo de introducción */
 .descripcion-links {
-  margin-left: 30px;
-  margin-bottom: 30px;
+  margin-left: 40px;
+  margin-bottom: 0px;
 }
 
 /* Lista de enlaces */
