@@ -1,0 +1,87 @@
+/* Navegación */
+
+.nav-principal {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.nav-principal ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-principal ul li a {
+  font-family: "Arial", Georgia, serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-principal ul li a:hover {
+  color: rgb(68, 210, 212);
+}
+/* Fondo y tipografía coherente */
+
+body.links {
+  background-image: url("/imagenes/links_fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+/* Título principal igual que los otros */
+.titulo-principal {
+  text-align: left;        /* el texto queda alineado hacia la izquierda */
+  margin-top: 30px;
+  margin-left: 30px;      /* mueve el título hacia la derecha */
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'DreamingOutloud', cursive;
+}
+
+
+/* Contenedor de lo principal */
+.base-descripcion {
+  width: 820px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px; /* Mueve a la derecha */
+  padding: 20px;
+  color: aliceblue;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-align: justify;
+}
+
+
+
+
+/* Párrafo de introducción */
+.descripcion-links {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+/* Lista de enlaces */
+.base-descripcion a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(166, 131, 43); /* color normal */
+  display: inline-block;
+  margin: 10px 0;
+  transition: color 0.3s ease;
+}
+
+.base-descripcion a:hover {
+  color: rgb(160, 12, 12); /* rojo oscuro al pasar el puntero */
+}

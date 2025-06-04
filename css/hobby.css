@@ -1,0 +1,97 @@
+/* Navegación común */
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  font-family: "Arial", Georgia, serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  color: rgb(68, 210, 212);
+}
+
+
+
+/* Estilos generales del body para la página de Hobbys */
+body.hobby {
+  background-image: url("/imagenes/fondo_hobby.png");
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2.titulo-principal {
+  text-align: left;
+  margin-left: 45px; /* Ajusta el valor para más o menos espacio */
+}
+
+
+/* Contenedor principal de las imágenes tipo galería */
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+  gap: 20px;
+  justify-items: center; /* Centra horizontalmente */
+  padding: 30px;
+}
+
+/* Recuadro individual para cada imagen */
+.recuadro {
+  width: 250px;
+  height: 250px;
+  border: 3px solid #333;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.4); /* fondo blanco traslúcido */
+}
+
+/* Imagen dentro de cada recuadro */
+.recuadro img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Recorta sin deformar */
+  display: block;
+}
+
+/* Recuadro general para centrar toda la galería con fondo translúcido */
+.galeria-hobby {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7); /* cuadro translúcido */
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+/* Estilo para imágenes individuales en la galería-hobby (si se usa) */
+.foto img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 3px solid #444;
+  border-radius: 8px;
+}

@@ -1,0 +1,150 @@
+
+/* INDEX.HTML */
+/* Navegación */
+/* Navegación común para todos los archivos */
+.nav-principal {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.nav-principal ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-principal ul li a {
+  font-family: "Arial", Georgia, serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-principal ul li a:hover {
+  color: rgb(68, 210, 212);
+}
+
+body.index {
+  position: relative;
+  background-image: url("/imagenes/index_fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+body.index .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4); /* fondo blanco semitransparente */
+  z-index: -1;
+}
+
+body.index h1,
+body.index h2 {
+  text-align: center;
+  font-family: 'DreamingOutloud', cursive;
+  font-size: 36px;
+}
+body.index h3 {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+/*.fuente-segundo-parrafo {
+  font-family: 'Poppins', sans-serif; /* Puedes cambiar 'Georgia' por cualquier otra 
+  font-size: 15px;
+  color: grey;
+  line-height: 1.6;
+}*/
+
+.fuente-segundo-parrafo {
+  background-color: rgba(255, 255, 255, 0.6);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: gray;
+  line-height: 1.6;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 100px; /* <<< mueve el bloque hacia la derecha */
+}
+
+
+
+.fuente-segundo-parrafo li {
+     margin-bottom: 10px;
+}
+
+
+
+.saludo-caja {
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.6); /* Blanco con 60% opacidad */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  width: 80%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* clase de titulos */
+.titulo-principal {
+  text-align: left;
+  margin: 30px 30px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
+/* Contador de visitas */
+.contador {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px 8px;
+  border: 3px solid black;
+  background-color: rgb(100, 192, 189);
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  display: block;
+  width: fit-content;
+  border-radius: 8px;
+}
+
+/* Pie de página */
+footer.pie {
+  margin-top: 5%;
+  font-size: 10px;
+  text-align: center;
+}
+
+/* Iconos finales */
+.iconos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.iconos img {
+  width: 30px;
+  height: 30px;
+}

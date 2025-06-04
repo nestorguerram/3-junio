@@ -1,0 +1,97 @@
+/* YO.HTML */
+/* Navegación centrada como en index.css */
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  font-family: "Arial", Georgia, serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  color: rgb(68, 210, 212);
+}
+
+body.yo {
+  background-image: url("/imagenes/yo_fondo.jpg");
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+
+body.yo h1 {
+  text-align: left;
+  width: 10px;
+  max-width: 10px;
+  margin: 20px;
+  margin-left: 45px;
+}
+
+.contenido-yo {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  align-items: start; /* o flex-start */
+  margin-left: 20px;
+}
+
+.descripcion {
+  flex: 1;
+}
+
+.descripcion p {
+  width: 500px; /* doble del ancho antes 300px */
+  text-align: justify;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 15px;
+
+}
+
+.imagen-yo {
+  flex: 1;
+  align-self: flex-start; /* Esto asegura que la imagen se mantenga al lado */
+}
+
+.imagen-yo img {
+  width: 250px; /* tamaño del cuadro de la imagen */
+  height: auto;
+  border: 5px solid grey;
+  /* margin-top: 10px; */
+  /* display: block; */
+}
+
+.info {
+  font-size: 20px;
+}
+
+.base-descripcion {
+  width: 820px; /* o un valor fijo como 700px */
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-left: 4px solid gray;
+  border-right: 4px solid gray;
+  border-radius: 8px;
+  text-align: justify;
+  font-size: 15px;
+  font-family: 'Roboto';
+  
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Datos de contacto</title>
+  <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body class="contacto">
+  <header>
+    <nav class="nav-principal">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="yo.html">Yo</a></li>
+      <li><a href="hobby.html">Hobby</a></li>
+      <li><a href="links.html">Links</a></li>
+      <li><a href="varios.html">Varios</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+  </header>
+
+  <main>
+    <h1>Datos de contacto</h1>
+    <form action="mailto:tu_correo@example.com" method="post" enctype="text/plain">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </main>
+</body>
+</html>

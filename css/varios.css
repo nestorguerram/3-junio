@@ -1,0 +1,64 @@
+/* Navegación común */
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  font-family: "Arial", Georgia, serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  color: rgb(68, 210, 212);
+}
+
+
+
+body.varios {
+  background-image: url("/imagenes/varios_fondo.jpg");
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.titulo-principal {
+  text-align: left;         /*linea el texto a la izquierda si quieres */
+  margin-top: 30px;
+  margin-left: 45px;        /* mueve el título a la derecha */
+  font-size: 40px;
+  font-weight: bold;
+}
+.contenido-centrado {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.contenido-centrado h2 {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contenido-centrado ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contenido-centrado li {
+  margin-bottom: 12px;
+}
