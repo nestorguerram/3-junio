@@ -66,15 +66,7 @@ body.varios {
   font-size: 20px;
 }
 
-.cuervo-volador {
-  position: absolute;
-  top: 20%;
-  left: -200px;
-  width: 120px;
-  animation: vuelo-zigzag 10s linear infinite;
-  z-index: 1000;
-  pointer-events: none;
-}
+
 /* animación para que el cuervo vuele horizontalmente de izquierda a derecha */
 @keyframes vuelo-cuervo {
   0% {
