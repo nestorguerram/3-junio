@@ -69,3 +69,12 @@
         <a href="https://www.inacap.cl" target="_blank">
             <img src="imagenes/cara_feliz.jpg" alt="INACAP"></a>
     </div>
+
+    <script>
+    let visitas = localStorage.getItem('visitas') || 0;
+    visitas++;
+    localStorage.setItem('visitas', visitas);
+    document.getElementById('contador').textContent = visitas;
+  </script>
+</body>
+</html>
