@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif; /* define la fuente principal */
+    margin: 0; /* valor del margen */
+    padding: 0; /* valor del espaciado  */
+}
+
+.container {
+    width: 80%; /* ancho del contenedor */
+    margin: 0 auto; /* permite centrar el contenedor  */
+    padding: 20px 0; /* espaciado superior y el inferior lo deja en 0 */
+}
+
+header {
+    background-color: #333; /* color del fondo de encabezado */
+    color: #fff; /* color del texto de encabezado */
+    text-align: center; /* centra el ancabezado horizontalmente */
+    padding: 100px 0; /* espacio vertical interno */
+}
+
+header h1 {
+    font-size: 2.5em; /* tamano del texto del titulo h1 */
+}
+
+.btn {
+    display: inline-block; /* permite que el boton tenga caracteristicas,espaciado y margen, */
+    background-color: #007bff; /* color del fondo del boton */
+    color: #fff; /* color del texto del boton */
+    padding: 10px 20px; /* espaciado interno del boton */
+    text-decoration: none; /* no tiene subrayado del enlace */
+    border-radius: 5px; /* esquinas redondeadas del boton */
+    transition: background-color 0.3s ease; /* animacion al pasar el cursor */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* color de fondo al pasar el cursor */
+}
+
+section {
+    padding: 50px 0; /* espaciado vertical interno para las secciones */
+}
+
+h2 {
+    text-align: center; /* centra los titulos h2 */
+}
+
+.feature {
+    text-align: center; /* centra el contenido de cada caracteristica */
+    margin-bottom: 30px; /* espacio inferior entre caracteristicas */
+}
+
+.feature h3 {
+    font-size: 1.5em; /* tamano del texto de los subtitulos */
+}
+
+.testimonial {
+    background-color: #f9f9f9; /* color de testimonios */
+    padding: 20px; /* espaciado interno */
+    border-radius: 5px; /* bordes redondeados */
+    margin-bottom: 30px; /* espacio inferior entre testimonios */
+}
+
+.testimonial p {
+    font-style: italic; /* estilo cursiva para el texto del testimonio */
+}
+
+.testimonial cite {
+    font-weight: bold; /* negrita para el autor del testimonio */
+}
+
+form {
+    max-width: 600px; /* ancho maximo del formulario */
+    margin: 0 auto; /* centra el formulario horizontalmente */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* el campo ocupa 100% de ancho disponible */
+    padding: 10px; /* espaciado interno */
+    margin-bottom: 20px; /* espacio inferior entre campos */
+    border-radius: 5px; /* esquinas redondeadas */
+    border: 1px solid #ccc; /* color de borde */
+}
+
+button[type="submit"] {
+    background-color: #007bff; /* color de fondo del boton enviar */
+    color: #fff; /* color del texto del boton */
+    border: none; /* sin borde */
+    padding: 10px 20px; /* espaciado interno del boton */
+    border-radius: 5px; /* esquinas redondeadas */
+    cursor: pointer; /* cambia el cursor a una mano al pasar encima */
+    transition: background-color 0.3s ease; /* animacion  */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* color del boton al pasar el cursor */
+}
+
+footer {
+    background-color: #333; /* color de fondo del pie de pagina */
+    color: #fff; /* color del texto del pie de pagina */
+    text-align: center; /* centra el texto */
+    padding: 20px 0; /* espaciado vertical interno */
+}
